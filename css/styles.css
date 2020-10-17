@@ -151,6 +151,10 @@ sup {
   top: -0.5em;
 }
 
+.link-acesso {
+  color: #00cfd5; 
+}
+
 a {
   color: #1f2d41;
   text-decoration: none;
@@ -5340,6 +5344,9 @@ a.close.disabled {
   transition: transform 0.3s ease-out;
   transform: translate(0, -50px);
 }
+
+
+
 @media (prefers-reduced-motion: reduce) {
   .modal.fade .modal-dialog {
     transition: none;
@@ -7520,6 +7527,7 @@ button.bg-dark:focus {
 .mb-5,
 .my-5 {
   margin-bottom: 3rem !important;
+  text-align: justify;
 }
 
 .ml-5,
